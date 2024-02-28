@@ -1,8 +1,8 @@
 var mysql = require("mysql2");
 var userdb = mysql.createConnection({
-  host: "",
+  host: "127.0.0.1",
   user: "root",
-  password: "gozld13!#",
+  password: "1234",
   database: "dvba",
   dateStrings: "date",
 });
